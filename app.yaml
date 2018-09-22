@@ -1,0 +1,10 @@
+runtime: 
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /.*
+  
+libraries:
+- name: jinja2
+  version: latest
