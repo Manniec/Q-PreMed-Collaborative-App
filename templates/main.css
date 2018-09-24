@@ -2,7 +2,7 @@
   display: inline-block;
   border-radius: 4px;
   border: none;
-  background-color: #0861f0;
+  background-color: #0e56e6;
   color: white;
   text-align: center;
   font-size: 28px;
@@ -10,7 +10,10 @@
   width: 150px;
   transition: 0.5s;
   cursor: pointer;
-  margin: 2px;
+  margin: 25px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 #log span {
