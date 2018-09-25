@@ -1,3 +1,12 @@
+/*website icon*/
+#logo {
+  position: fixed;
+  display: inline-block;
+  margin: 6px 10px;
+  padding: 10px 10px;
+
+}
+
 /* top nav bar script*/
 .grid-container {
   display: grid;
@@ -6,7 +15,7 @@
   position: fixed;/* fixes bar location to one place relative to screen*/
   right: 0;/* aligns fixed bar to right of screen*/
   top:0;/*aligns fixed bar to top of screen*/
-  margin: 10px 5px;/*margin btween bar and screen*/
+  margin: 10px 5px;/*margin btween bar and screen (top,side)*/
   background-color: #FFFF;/*ensure white background behind grid items*/
 }
 
@@ -38,7 +47,7 @@
   text-align: center;
   font-size: 28px;
   padding: 13px;
-  width: 150px;
+  width: 140px;
   transition: 0.5s;
   cursor: pointer;
   margin: 6px 20px;
